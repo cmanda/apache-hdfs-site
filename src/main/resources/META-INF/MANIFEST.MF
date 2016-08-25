@@ -1,0 +1,5 @@
+Custom-Protocol: hdfs
+Protocol-Label: HDFS
+Custom-UI: hdfsSite.html
+Custom-Site: com.axway.ssc.st.plugins.site.hdfs.HDFSSite
+Class-Path: hdfs/lib/aws-java-sdk-1.9.6.jar	hdfs/lib/aws-java-sdk-core-1.9.6.jar	hdfs/lib/aws-java-sdk-s3-1.9.6.jar

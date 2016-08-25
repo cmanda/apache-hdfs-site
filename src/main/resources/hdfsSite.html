@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<link rel="stylesheet" type="text/css" href="/coreadmin/servlet/pluginContent/css/hdfsStyle.css?pluginName=hdfs" />
+<title>Apache HDFS Transfer Plugin</title>
+</head>
+<body>
+	<script src="/coreadmin/servlet/pluginContent/jscript/hdfsScript.js?pluginName=hdfs" />
+	<div class="div1">
+		<img src="/coreadmin/servlet/pluginContent/images/hdfs.jpg?pluginName=hdfs" />
+		<b>Apache HDFS Transfer Settings</b>
+	</div>
+	<br/>
+	<table border="0" cellpadding="1" cellspacing="0">
+		<tr>
+			<td style="padding-left: 50px;" nowrap="nowrap">Network Zone:*</td>
+			<td>
+				<select id="networkZone" name="networkZone" />
+			</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 50px;" nowrap="nowrap" width="100">HDFS Hostname:</td>
+			<td>
+				<input type="text" size="40" id="hdfsHostName" name="hdfsHostName" value="" />
+			</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 50px;" nowrap="nowrap" width="100">HDFS Port:</td>
+			<td>
+				<input type="text" size="40" id="hdfsPort" name="hdfsPort" value="" />
+			</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 50px;" nowrap="nowrap" width="100">HDFS Url:</td>
+			<td>
+				<input type="text" size="40" id="hdfsUrl" name="hdfsUrl" value="" />
+			</td>
+		</tr>
+		<tr>
+			<td calspan="2"><b>Upload Settings</b></td>
+		</tr>
+		<tr>
+			<td style="padding-left: 50px;" nowrap="nowrap">Upload Folder:</td>
+			<td>
+				<label class="default-input">
+					<input type="text" size="60" id="hdfsUploadFolder" name="hdfsUploadFolder" value="" />
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 50px;" nowrap="nowrap">Auto Create Folder:</td>
+			<td>
+				<select id="autoCreateDirectory" name="autoCreateDirectory">
+					<option value="false">false</option>
+					<option value="true">true</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td calspan="2"><b>Download Settings</b></td>
+		</tr>
+		<tr>
+			<td style="padding-left: 50px;" nowrap="nowrap">Download Folder:</td>
+			<td>
+				<label class="default-input">
+					<input type="text" size="60" id="hdfsDownloadFolder" name="hdfsDownloadFolder" value="" />
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding-left: 50px;" nowrap="nowrap">Download Object Key:</td>
+			<td>
+				<label class="default-input">
+					<input type="text" size="60" id="hdfsDownloadObjectKey" name="hdfsDownloadObjectKey" value="" />
+				</label>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
