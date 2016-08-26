@@ -9,11 +9,6 @@ import org.apache.hadoop.hdfs.DFSClient;
 
 import com.axway.st.plugins.site.TransferFailedException;
 
-/**
- * 
- * @author cmanda
- *
- */
 interface HDFSConnector {
 
 	/**
