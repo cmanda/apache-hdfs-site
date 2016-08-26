@@ -6,10 +6,6 @@ package com.axway.ssc.st.plugins.site.hdfs;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * @author cmanda
- *
- */
 public class AlwaysOpenOutputStream extends InputStream {
 
 	private final InputStream stream;
