@@ -13,8 +13,7 @@ import com.axway.ssc.st.plugins.site.hdfs.bean.HDFSBean;
 import com.axway.st.plugins.site.services.ProxyService;
 
 /**
- * @author cmanda
- *
+ * 
  */
 public abstract class AbstractHDFSConnector implements HDFSConnector {
 
