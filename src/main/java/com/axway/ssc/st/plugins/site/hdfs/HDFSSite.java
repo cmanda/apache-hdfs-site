@@ -21,10 +21,6 @@ import com.axway.st.plugins.site.TransferFailedException;
 import com.axway.st.plugins.site.services.CertificateService;
 import com.axway.st.plugins.site.services.ProxyService;
 
-/**
- * @author cmanda
- *
- */
 public class HDFSSite extends CustomSite {
 
 	/**
