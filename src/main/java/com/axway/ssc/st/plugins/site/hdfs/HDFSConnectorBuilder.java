@@ -5,10 +5,6 @@ package com.axway.ssc.st.plugins.site.hdfs;
 
 import com.axway.ssc.st.plugins.site.hdfs.bean.HDFSBean;
 
-/**
- * @author cmanda
- *
- */
 public class HDFSConnectorBuilder {
 
 	/**
